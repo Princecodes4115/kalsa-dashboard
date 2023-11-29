@@ -43,3 +43,74 @@ export const SparklineAreaData = [
   { x: 4, yval: 5 },
   { x: 5, yval: 10 },
 ];
+
+export const tableData = [
+  {
+    id: 1,
+    transactionId: "TRX123",
+    source: "Web",
+    customerName: "John Doe",
+    customerEmail: "john@example.com",
+    amount: "$100",
+    requestDate: "2023-01-15",
+    status: "Completed",
+  },
+  {
+    id: 1,
+    transactionId: "TRX123",
+    source: "Web",
+    customerName: "John Doe",
+    customerEmail: "john@example.com",
+    amount: "$100",
+    requestDate: "2023-01-15",
+    status: "Completed",
+  },
+  {
+    id: 1,
+    transactionId: "TRX123",
+    source: "Web",
+    customerName: "John Doe",
+    customerEmail: "john@example.com",
+    amount: "$100",
+    requestDate: "2023-01-15",
+    status: "Completed",
+  },
+];
+
+export const columns = [
+  {
+    name: "Transaction ID",
+    selector: "transactionId",
+    sortable: true,
+  },
+  {
+    name: "Source",
+    selector: "source",
+    sortable: true,
+  },
+  {
+    name: "Customer Name",
+    selector: "customerName",
+    sortable: true,
+  },
+  {
+    name: "Customer Email",
+    selector: "customerEmail",
+    sortable: true,
+  },
+  {
+    name: "Amount",
+    selector: "amount",
+    sortable: true,
+  },
+  {
+    name: "Request Date",
+    selector: "requestDate",
+    sortable: true,
+  },
+  {
+    name: "Status",
+    selector: "status",
+    sortable: true,
+  },
+];
