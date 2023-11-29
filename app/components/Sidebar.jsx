@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 import { links } from "../../utils/constants";
-import collapsIcon from "./icons/CollapsIcon";
 import { IoIosArrowBack } from "react-icons/io";
 import { FaRegQuestionCircle } from "react-icons/fa";
 

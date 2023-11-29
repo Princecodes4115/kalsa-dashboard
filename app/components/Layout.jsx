@@ -1,5 +1,4 @@
 import React from "react";
-import Sidebar from "./Sidebar";
 import dynamic from "next/dynamic";
 const DynamicSidebar = dynamic(() => import("./Sidebar"), {
   ssr: false,

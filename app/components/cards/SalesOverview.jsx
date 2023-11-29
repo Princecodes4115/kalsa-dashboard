@@ -9,11 +9,11 @@ const SalesOverview = () => {
   ];
 
   return (
-    <div className="[95%] lg:w-[80%] pt-12 mx-auto flex-wrap">
+    <div className="flex  items-start flex-wrap justify-between p-4 pt-20">
       {items.map((item) => (
         <div
           key={item.id}
-          className={`p-4  lg:w-[33%]   flex flex-wrap m-1   h-[240px] w-[256px] ${
+          className={`p-4 m-1 col-span-2 sm:col-span-1 md:col-span-1 lg:col-span-1 w-[340px] h-[240px] ${
             item.id === 2 ? "bg-black text-white" : "bg-white text-black"
           }`}
         >
